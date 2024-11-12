@@ -17,6 +17,10 @@
     "sandbox":{
       "cache": false,
       "dependsOn": ["^sandbox"]
+    },
+    "deploy": {
+      "cache": false,
+      "dependsOn": ["^deploy"]
     }
   }
 }

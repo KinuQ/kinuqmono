@@ -10,7 +10,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"sandbox": "pnpm ampx sandbox",
-		"deploy": "pnpm exec ampx pipeline-deploy --branch $AWS_BRANCH --app-id"
+		"deploy": "pnpm exec ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID"
 	},
 	"keywords": [],
 	"author": "",

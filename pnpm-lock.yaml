@@ -20,6 +20,9 @@ importers:
 
   apps/placeholderapp:
     dependencies:
+      '@kinuq/amplify':
+        specifier: workspace:*
+        version: link:../../packages/amplify
       react:
         specifier: ^18.3.1
         version: 18.3.1

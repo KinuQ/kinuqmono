@@ -7,6 +7,11 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+    "paths": {
+      "@kinuq/amplify": ["../../packages/amplify"]
+    },
+    
+
     /* Bundler mode */
     "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
@@ -22,5 +27,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src", "../../packages/amplify/output.ts"]
 }

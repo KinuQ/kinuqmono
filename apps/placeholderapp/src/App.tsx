@@ -7,6 +7,7 @@ function App() {
 			<h2>forzando cache</h2>
 			<h2>forzando cache x2</h2>
 			<h2>forzando cache x3</h2>
+			<h2>forzando cache x4</h2>
 		</>
 	);
 }
